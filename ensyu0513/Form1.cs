@@ -17,5 +17,19 @@ namespace ensyu0513
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Top = 100;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.TextAlign = ContentAlignment.MiddleLeft;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.ForeColor = Color.Red;
+        }
     }
 }
